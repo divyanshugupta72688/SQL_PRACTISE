@@ -3,7 +3,7 @@ SELECT*FROM employee;
 /* FIRST WAY TO SHOW */
 SELECT*FROM employee
 WHERE salary >= 40000 AND salary <=60000;
-/*SECOND OPETION*/
+/*SECOND OPTION*/
 SELECT salary FROM employee
 WHERE salary BETWEEN 40000 AND 60000;
 
